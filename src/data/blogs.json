@@ -1,0 +1,10 @@
+[
+  { "type": "blog", "title": "First Blog", "content": "This is the first blog post" },
+  { "type": "blog", "title": "Second Blog", "content": "This is another blog post" },
+  { "type": "blog", "title": "Scaling React Apps", "content": "Tips on structuring large React apps with feature folders and code-splitting." },
+  { "type": "blog", "title": "MUI Layout Patterns", "content": "How to build responsive dashboards with MUI Grid and Box." },
+  { "type": "blog", "title": "State Management Choices", "content": "Context, Redux Toolkit, or Zustand? Tradeoffs and when to choose each." },
+  { "type": "blog", "title": "Charting Best Practices", "content": "Designing readable charts: color, contrast, and labeling guidance." },
+  { "type": "blog", "title": "Vite Performance", "content": "Fast dev builds and code-splitting with Vite for modern projects." },
+  { "type": "blog", "title": "Accessibility in Dashboards", "content": "Keyboard navigation and ARIA practices for complex UIs." }
+]

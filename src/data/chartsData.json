@@ -1,0 +1,6 @@
+[
+  { "type": "chart", "title": "Bar Chart", "chartType": "bar", "labels": ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"], "datasets": [ { "label": "Votes", "data": [12, 19, 3, 5, 2, 3] }, { "label": "New Votes", "data": [5, 12, 8, 9, 4, 6] } ] },
+  { "type": "chart", "title": "Line Chart", "chartType": "line", "labels": ["Jan", "Feb", "Mar", "Apr", "May"], "datasets": [ { "label": "Sales", "data": [65, 59, 80, 81, 56] }, { "label": "Returns", "data": [12, 18, 11, 9, 15] } ] },
+  { "type": "chart", "title": "Pie Chart", "chartType": "pie", "labels": ["Desktop", "Mobile", "Tablet"], "datasets": [ { "label": "Traffic", "data": [55, 35, 10] } ] },
+  { "type": "chart", "title": "Doughnut Chart", "chartType": "doughnut", "labels": ["North", "South", "East", "West"], "datasets": [ { "label": "Regions", "data": [120, 90, 70, 60] } ] }
+]

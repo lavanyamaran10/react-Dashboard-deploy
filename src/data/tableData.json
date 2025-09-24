@@ -1,0 +1,12 @@
+[
+  { "type": "table", "title": "Employee Details", "columnHeaders": ["ID", "Name", "Age"], "columnWidths": [2, 8, 2], "rows": [[1, "John Doe", 28], [2, "Jane Smith", 32], [3, "Alex Johnson", 24], [4, "Priya Patel", 29]] },
+  { "type": "table", "title": "Customer List", "columnHeaders": ["CustomerID", "Name", "Country"], "columnWidths": [3, 6, 3], "rows": [["C101", "Maria Garcia", "Spain"], ["C102", "Omar Hassan", "Egypt"], ["C103", "Lila Kapoor", "India"]] },
+  { "type": "table", "title": "Product Inventory", "columnHeaders": ["ProductID", "ProductName", "Stock"], "columnWidths": [3, 7, 2], "rows": [["P001", "Laptop", 50], ["P002", "Smartphone", 120], ["P003", "Tablet", 75]] },
+  { "type": "table", "title": "Sales Report", "columnHeaders": ["Month", "Sales", "Profit"], "columnWidths": [4, 4, 4], "rows": [["January", 5000, 1200], ["February", 7000, 1600], ["March", 8000, 1900]] },
+  { "type": "table", "title": "Order History", "columnHeaders": ["OrderID", "Customer", "Status"], "columnWidths": [3, 6, 3], "rows": [["O9001", "John Doe", "Shipped"], ["O9002", "Jane Smith", "Pending"], ["O9003", "Alex Johnson", "Delivered"]] },
+  { "type": "table", "title": "Student Records", "columnHeaders": ["RollNo", "Name", "Grade"], "columnWidths": [3, 6, 3], "rows": [[101, "Rahul Mehta", "A"], [102, "Emily Clark", "B"], [103, "Chen Wei", "A+"]] },
+  { "type": "table", "title": "Support Tickets", "columnHeaders": ["TicketID", "Issue", "Status"], "columnWidths": [3, 7, 2], "rows": [["T1001", "Login Error", "Open"], ["T1002", "Payment Failed", "Resolved"], ["T1003", "Slow Website", "In Progress"]] },
+  { "type": "table", "title": "Library Books", "columnHeaders": ["BookID", "Title", "Available"], "columnWidths": [3, 7, 2], "rows": [["B001", "The Great Gatsby", "Yes"], ["B002", "To Kill a Mockingbird", "No"], ["B003", "1984", "Yes"]] },
+  { "type": "table", "title": "Project Tasks", "columnHeaders": ["TaskID", "Task", "AssignedTo", "Status"], "columnWidths": [2, 5, 3, 2], "rows": [[1, "UI Design", "John Doe", "Done"], [2, "API Integration", "Jane Smith", "In Progress"], [3, "Testing", "Alex Johnson", "Pending"]] },
+  { "type": "table", "title": "Flight Schedule", "columnHeaders": ["FlightNo", "Destination", "Time"], "columnWidths": [3, 6, 3], "rows": [["AI202", "London", "10:30 AM"], ["BA305", "New York", "2:15 PM"], ["SQ401", "Singapore", "6:45 PM"]] }
+]
