@@ -55,14 +55,26 @@ export default function Login({ setUser }) {
 
   return (
     <div className="h-screen w-full flex bg-gradient-to-r from-black via-blue-950 to-blue-900">
-      {/* Left Side - 70% */}
-      <div className="w-[70%] flex flex-col justify-center px-12 text-white">
-        <h1 className="text-5xl font-bold mb-6">Static Dashboard</h1>
-        <p className="text-lg leading-relaxed">{content.loginText}</p>
+      {/* Left Side */}
+      <div className="w-[40%] md:w-1/2 lg:w-[70%] flex flex-col justify-center px-6 md:px-12 text-white">
+        {/* Heading stays static, responsive font size */}
+        <h1 className="text-4xl sm:text-2xl md:text-4xl lg:text-5xl font-bold mb-6">
+          Static Dashboard
+        </h1>
+        {/* Scrollable content box */}
+        <div
+          className="overflow-y-auto"
+          style={{
+            maxHeight: "50vh", // Adjust as needed
+          }}
+        >
+          <p className="text-lg leading-relaxed">{content.loginText}</p>
+          <p className="text-lg leading-relaxed text-blue-900">Login with any name and passoword</p>
+        </div>
       </div>
 
-      {/* Right Side - 30% */}
-      <div className="w-[30%] flex items-center justify-center bg-white shadow-lg">
+      {/* Right Side */}
+      <div className="w-[60%] md:w-1/2 lg:w-[30%] flex items-center justify-center bg-white shadow-lg">
         <div className="w-3/4">
           <h2 className="text-2xl font-semibold mb-6 text-center text-gray-800">
             Login
