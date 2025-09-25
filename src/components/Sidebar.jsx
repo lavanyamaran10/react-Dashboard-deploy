@@ -43,15 +43,17 @@ export default function Sidebar({ collapsed, drawerWidth, setUser }) {
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-between",
+        transition: "width 0.3s", // smooth width transition
         [`& .MuiDrawer-paper`]: {
           width: responsiveWidth,
           boxSizing: "border-box",
-          background: "#0b1a4a",
+          background:
+            "linear-gradient(180deg, #071335 0%, #0b1a4a 60%, #0b1a66 100%)", // blue gradient background
           color: "#fff",
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          transition: "width 0.3s",
+          transition: "width 0.3s, background 0.3s", // smooth transition
         },
       }}
       open
@@ -66,6 +68,7 @@ export default function Sidebar({ collapsed, drawerWidth, setUser }) {
                 to={item.to}
                 sx={{
                   "&.active": { backgroundColor: "rgba(255,255,255,0.12)" },
+                  transition: "all 0.3s", // smooth hover/active transition
                 }}
               >
                 <ListItemIcon sx={{ color: "#fff", minWidth: 40 }}>
@@ -86,11 +89,16 @@ export default function Sidebar({ collapsed, drawerWidth, setUser }) {
       <Box>
         <ListItem disablePadding>
           <Tooltip title={isSmallScreen ? "Logout" : ""} placement="right">
-            <ListItemButton onClick={handleLogout}>
+            <ListItemButton
+              onClick={handleLogout}
+              sx={{ transition: "all 0.3s" }}
+            >
               <ListItemIcon sx={{ color: "#fff", minWidth: 40 }}>
                 <LogoutIcon />
               </ListItemIcon>
-              {!collapsed && !isSmallScreen && <ListItemText primary="Logout" />}
+              {!collapsed && !isSmallScreen && (
+                <ListItemText primary="Logout" />
+              )}
             </ListItemButton>
           </Tooltip>
         </ListItem>
